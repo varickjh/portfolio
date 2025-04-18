@@ -19,7 +19,8 @@ li{
 nav {
   display: flex;
   margin-bottom: 1.5em;
-  border-bottom: 1px solid oklch(80% 3% 200);
+  --border-color: oklch(50% 10% 200 / 40%);
+  border-bottom: 1px solid var(--border-color);
 }
 
 a {
@@ -31,7 +32,7 @@ a {
 }
 
 .current {
-  border-bottom: 0.4em solid oklch(80% 3% 200);
+  border-bottom: 0.4em solid var(--border-color);
   padding-bottom: 0.1em;
 }
 
@@ -41,7 +42,7 @@ html{
 
 a:hover{
   border-bottom: 0.4em solid var(--color-accent);
-  background-color: oklch(from var(--color-accent) 95% 5% h);
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
   padding-bottom: 0.1em;
 }
 
@@ -53,7 +54,7 @@ label{
   grid-column: 1 / -1;
 }
 
-/* input{
+input{
   font:inherit;
   display:block;
   width: 100%;
@@ -65,7 +66,7 @@ textarea{
   display:block;
   width: 100%;
   box-sizing: border-box;
-} */
+}
 
 button{
   font:inherit;
@@ -95,3 +96,20 @@ h2{
 h1{
   font-size:400%;
 }
+
+html {
+  color-scheme: light dark
+}
+
+label.color-scheme {
+  position:absolute;
+  top: 1rem;
+  right: 1rem;
+  font-family: inherit;
+  font-size: 80%;
+}
+
+select{
+  font:inherit;
+}
+
