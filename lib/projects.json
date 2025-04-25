@@ -1,0 +1,74 @@
+[
+    {
+        "title": "California Crime Rate Analysis",
+        "year": "2023",
+        "image": "../images/californiacrime.png",
+        "description": "Analyzed California Crime Rate and Law Enforcement Data (2015) using Python and other libraries including NumPy, Pandas, Matplotlib, and Seaborn. Outcomes such as the most frequent crimes, most dangerous areas, impact of law enforcement rate on crime rates, and other factors affecting crime rate were outputted and visualized based on existing datasets."
+    },
+    {
+        "title": "Global Electric Vehicle Data Analysis",
+        "year": "2024",
+        "image": "../images/globalev.jpeg",
+        "description": "Led data analysis of the 2023 Global Electric Vehicle Dataset using Python, NumPy, Pandas, and Matplotlib to derive insights on EV market trends across key global economies, using data to uncover global renewable energy industry insights."
+    },
+    {
+        "title": "I'm Bored Chrome Extension",
+        "year": "2023",
+        "image": "../images/imbored.png",
+        "description": "Designed and built a fun Chrome Extension using HTML, CSS, and JavaScript with 2,000+ users. A single click leads you to a randomized page to cure boredom. Integrated up to 50+ fun, interactive, odd, weird, and wacky pages."
+    },
+    {
+        "title": "AHAS Partshop's Order Management System",
+        "year": "2023",
+        "image": "../images/ahas.png",
+        "description": "Designed and programmed AHAS Partshop’s order management system with searching, sorting, and object-oriented programming algorithms. Utilized HTML, CSS, and Bootstrap for the front-end programming of the system with PHP and MySQL for the back-end."
+    },
+    {
+        "title": "DSC 80 Project 1",
+        "year": "2022",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Atque sed aspernatur amet quam deleniti quaerat temporibus soluta, facilis iste sit impedit beatae dignissimos doloribus labore! Alias provident, tempora corporis at a, nulla laboriosam sit magnam officia qui accusantium?"
+    },
+    {
+        "title": "DSC 80 Project 2",
+        "year": "2020",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Dolores veniam aliquid veritatis illum quos expedita, repellat magni quam nostrum eius error obcaecati, illo, vitae sed modi minima totam! Placeat, vitae temporibus amet neque consectetur totam sed nihil eveniet."
+    },
+    {
+        "title": "DSC 80 Project 3",
+        "year": "2019",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Facilis qui dolor quam sunt numquam similique voluptatum, laudantium voluptate, minus suscipit, magnam vitae alias. Modi eius sequi in possimus, incidunt minima obcaecati, amet animi culpa at omnis atque libero?"
+    },
+    {
+        "title": "DSC 80 Project 4",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Harum, doloremque necessitatibus deleniti error earum nam mollitia architecto laboriosam. Culpa repellendus vitae placeat vel sit hic sint aliquid. Voluptate maxime recusandae similique vitae obcaecati voluptates, nobis numquam velit fuga?"
+    },
+    {
+        "title": "DSC 106 Project 1",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Architecto dolorem corrupti dignissimos ex numquam, soluta sed obcaecati rem facere, ullam est quis? Consectetur repellendus, illum nesciunt odio saepe repellat nisi animi, soluta ab pariatur provident dolores nulla perspiciatis?"
+    },
+    {
+        "title": "Mini-Thesis: Comparing the Performance of Decision Tree and Naïve Bayes in Predicting Students' Academic Performance",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Reprehenderit rerum aliquam natus vitae? Explicabo deserunt, rerum quidem id quo exercitationem laboriosam quae rem esse, nobis a. Eveniet quod quos sit adipisci earum, optio deserunt inventore impedit id aspernatur."
+    },
+    {
+        "title": "Stuck With Foods",
+        "year": "2021",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Possimus aut modi fugiat non veritatis ratione voluptates laudantium sint nihil distinctio, ea assumenda asperiores sunt aliquid, autem doloribus exercitationem rerum corporis unde quae! Exercitationem architecto dolorum laborum quae vitae."
+    },
+    {
+        "title": "The Ice Breaker",
+        "year": "2022",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Veniam omnis, ab impedit quibusdam nesciunt dolore, recusandae, nihil vero quo temporibus voluptate! Dignissimos saepe iure, quaerat fugiat amet tempore fuga odit nihil at, neque deserunt eum, ipsa qui aliquid."
+    }
+]
