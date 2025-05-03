@@ -6,6 +6,7 @@ body {
     max-width: 100ch;
     margin-inline: auto;
     padding: 3ch;
+    align-items: center;
   }
 
 ul{
@@ -112,4 +113,68 @@ label.color-scheme {
 select{
   font:inherit;
 }
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+
+.swatch{
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 50%;
+  width: 1em;
+}
+
+.legend{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  border: 0.1em solid lightgrey;
+  padding: 1em;
+  margin: 1em;
+  flex: 1;
+}
+
+.list-item{
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.searchBar{
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.5;
+  }
+}
+
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
 
