@@ -429,7 +429,7 @@ function onTimeSliderChange(){
 }
 
 // Add event listener for the time slider
-document.getElementById('commit-progress').addEventListener('input', onTimeSliderChange);
+// document.getElementById('commit-progress').addEventListener('input', onTimeSliderChange);
 
 d3.select('#scatter-story')
   .selectAll('.step')
@@ -457,6 +457,11 @@ d3.select('#scatter-story')
   );
 
 function onStepEnter(response) {
+  commitMaxTime = response.element.__data__.datetime;
+  filteredCommits = commits.filter((d) => d.datetime <= commitMaxTime);
+  const filteredData = data.filter(d => d.datetime <= commitMaxTime);
+  updateFileDisplay(filteredCommits);
+  updateScatterPlot(data, filteredCommits);
   console.log(response.element.__data__.datetime);
 }
 
